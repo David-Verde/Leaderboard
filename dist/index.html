@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="David Verde | Leaderboard, Front-End Developer from Venezuela" />
+  <meta name="keywords" content="Leaderboard, Front-End, Front-End Developer, HTML, CSS, Javascript, David-Verde" />
+  <link rel="stylesheet" href="./styles.css">
+  <title>Leaderboard app</title>
+<script defer src="main.js"></script></head>
+
+<body>
+  <header>
+    <h1 id="title">Leaderboard</h1>
+  </header>
+  <main>
+    <section>
+      <div class="scores">
+        <h2>Recent scores</h2>
+        <button class="btn-refresh" type="button">Refresh</button>
+      </div>
+      <div class="results">
+        <div class="result">
+          <span class="name">David Verde: </span>
+          <span class="score">100</span>
+        </div>
+        <div class="result">
+          <span class="name">Bob Marley: </span>
+          <span class="score">135</span>
+        </div>
+        <div class="result">
+          <span class="name">Aang: </span>
+          <span class="score">150</span>
+        </div>
+      </div>
+    </section>
+    <aside>
+      <h2>Add your score</h2>
+      <form action="#">
+        <label for="name"></label>
+        <input class="your-name" type="text" id="name" name="name" placeholder="Your name"><br><br>
+        <label for="score"></label>
+        <input class="your-score" type="text" id="score" name="score" placeholder="Your score"><br><br>
+        <input class="btn-submit" type="submit" value="Submit">
+      </form>
+    </aside>
+  </main>
+</body>
+
+</html>
