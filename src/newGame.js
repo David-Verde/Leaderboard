@@ -10,4 +10,5 @@ const newGame = async () => {
   const data = await res.json();
   gameId = (data.result).split(' ');
   return gameId[3];
-}
+};
+module.exports =newGame
