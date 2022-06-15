@@ -11,4 +11,4 @@ const newGame = async () => {
   gameId = (data.result).split(' ');
   return gameId[3];
 };
-module.exports =newGame
+module.exports = newGame;
