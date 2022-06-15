@@ -1,7 +1,7 @@
 # Leaderboard
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# ONJoseph Leaderboard project
+# David Verde Leaderboard project
 
 > JavaScript leaderboard project using API.
 
@@ -9,7 +9,7 @@
 
 ## Description
 
-In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I should develop a first working version of the app following a wire frame, but without styling - just focus on functionality. In following activities, I will consume the Leaderboard API using JavaScript async and await and add some styling.
+Microverse Leaderboard project built with html CSS and JavaScript, this first part is only for stiling and Structure.
 
 ## Instructions:
 
@@ -50,7 +50,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-- Clone the repository using `git clone https://github.com/ONJoseph/Leaderboard.git`
+- Clone the repository using `git clone https://github.com/David-Verde/Leaderboard.git`
 - Change directory into the project folder `cd Leaderboard`
 - Run `npm install` from the terminal
 - Run `npm start` from the terminal
@@ -66,17 +66,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Joseph Ogbole**
+👤 **David Verde**
 
-- GitHub: [@ONJoseph](https://github.com/ONJoseph)
-- Twitter: [@ONJCodes](https://twitter.com/ONJCodes)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/o-n-joseph-ba8425147/)
+- GitHub: https://github.com/David-Verde
+- Twitter: [@DavidVerdeAlvarez](https://twitter.com/UnyieldingOne)
+- LinkedIn: [@DavidVerdeAlvarez](https://www.linkedin.com/in/david-verde-3349b114b/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ONJoseph/Leaderboard/issues).
+Feel free to check the [issues page](https://github.com/David-Verde/Leaderboard/issues).
 
 ## Show your support
 
@@ -87,4 +87,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./license.md) licensed.
+This project is [MIT](./LICENSE) licensed.
