@@ -1,4 +1,3 @@
-
 class Result {
   static record(user, score) {
     return `
