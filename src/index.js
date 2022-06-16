@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import './styles.css';
 import postScore from './post.js';
 import refresh from './refresh.js';
