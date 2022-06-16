@@ -1,3 +1,4 @@
+// eslint-disable-line no-unused-vars// 
 const newGame = async () => {
   let gameId = [];
   const res = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
