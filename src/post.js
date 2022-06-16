@@ -3,7 +3,7 @@ const postScore = async (e) => {
   const user = document.getElementById('name').value;
   const score = document.getElementById('score').value;
   const gameUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/dV5ddO4HfUyAH1uOfTZ3/scores/';
-  const result = await fetch(`${gameUrl}`, {
+   const result = await fetch(`${gameUrl}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
