@@ -1,4 +1,4 @@
-/* eslint-disable */
+// eslint-disable-next-line no-unused-vars
 const newGame = async () => {
   let gameId = [];
   const res = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
@@ -13,4 +13,3 @@ const newGame = async () => {
   return gameId[3];
 };
 module.exports = newGame;
-/* eslint-enable */
