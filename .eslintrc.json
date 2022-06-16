@@ -22,9 +22,4 @@
     "dist/",
     "build/"
   ]
-  module.exports = {
-    rules: { 
-      "no-unused-vars": "off",
-    },
-  }
 }
