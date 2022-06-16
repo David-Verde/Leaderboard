@@ -5,4 +5,3 @@ import newGame from './newGame';
 
 document.getElementById('data-submit').addEventListener('submit', postScore);
 document.querySelector('.btn-refresh').addEventListener('click', refresh);
-console.log (newGame()) 
