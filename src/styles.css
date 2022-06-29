@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 90vh;
+  background-color: #9d8eff;
+}
+
+h2 {
+  color: #4e505f;
+}
+
+#title {
+  margin: 2rem 0 4rem 2rem;
+  color: white;
+  font-size: 3rem;
+}
+
+main {
+  margin: 2rem 8rem;
+  display: flex;
+  column-gap: 3rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.scores {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.btn-refresh {
+  margin-left: 1rem;
+  width: 80px;
+}
+
+form {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+input {
+  min-width: 95%;
+}
+
+.btn-submit {
+  max-width: 80px;
+  float: right;
+  padding: 3px 6px;
+}
+
+button,
+button:focus {
+  background-color: #d1f7ff;
+  border-radius: 4px;
+  border: 2px solid #9ca2bf;
+  width: 80px;
+  padding: 3px 6px;
+  box-shadow: 4px 4px 4px #a09ed4;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d1e0ff;
+  box-shadow: 1px 1px 2px #7f7868;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+}
+
+aside {
+  min-width: 40%;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+}
+
+.result:first-of-type {
+  background-color: #9695ee;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.result:last-of-type {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.results :nth-child(2n+3) {
+  background-color: #aab9ed;
+}
+
+.results {
+  border: 2px solid #5f5a4e !important;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.your-name,
+.your-score {
+  padding: 5px;
+  margin-bottom: 1rem;
+  border: 2px solid #5f5a4e !important;
+  border-radius: 8px;
+}
+
+#data-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer {
+  width: 100%;
+  padding-bottom: 2rem;
+  bottom: 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.author {
+  text-decoration: none;
+  color: #7f7868;
+  cursor: pointer;
+}
+
+.author:hover {
+  color: #5f5a4e;
+}
